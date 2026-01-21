@@ -49,20 +49,24 @@ h1 {
 
 #hero {
     margin-bottom: 3rem;
-    border-radius: 12px;
-    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
 }
 
 #profile-img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
     display: block;
-    filter: grayscale(20%);
-    transition: filter 0.3s ease;
+    filter: grayscale(10%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+    border: 2px solid var(--border-color);
 }
 
 #profile-img:hover {
     filter: grayscale(0%);
+    transform: scale(1.02);
 }
 
 #links {
@@ -140,16 +144,16 @@ footer {
     body {
         padding: 2rem 1.5rem;
     }
-    
+
     h1 {
         font-size: 2rem;
     }
-    
+
     .item-header {
         flex-direction: column;
         gap: 0.2rem;
     }
-    
+
     .date {
         font-size: 0.85rem;
     }
