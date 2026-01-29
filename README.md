@@ -1,6 +1,6 @@
 # Liang Su's Personal Website
 
-This is a personal website for Liang Su, Co-founder & CTO at Heima Robotics.
+This is a personal website for Liang Su, Co-founder & Independent Developer.
 
 ## Tech Stack
 - HTML5
